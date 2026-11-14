@@ -1,10 +1,4 @@
-
-import {
-  Camera,
-  Download,
-  Image as ImageIcon,
-  RotateCcw,
-} from "lucide-react";
+import { Camera, Download, Image as ImageIcon, RotateCcw } from "lucide-react";
 
 const formatFileSize = (bytes) => {
   if (bytes < 1024) {
@@ -18,11 +12,7 @@ const formatFileSize = (bytes) => {
   return `${(bytes / (1024 * 1024)).toFixed(2)} MB`;
 };
 
-const ImagePreview = ({
-  image,
-  onRetake,
-  onDownload,
-}) => {
+const ImagePreview = ({ image, onRetake, onDownload }) => {
   if (!image) return null;
 
   return (
@@ -32,9 +22,7 @@ const ImagePreview = ({
           <div className="flex items-center gap-2">
             <ImageIcon size={18} className="text-green-400" />
 
-            <h3 className="font-semibold text-white">
-              Captured Image
-            </h3>
+            <h3 className="font-semibold text-white">Captured Image</h3>
           </div>
 
           <p className="mt-1 text-xs text-zinc-500">
@@ -72,9 +60,7 @@ const ImagePreview = ({
 
         <div>
           <p className="text-xs text-zinc-500">Format</p>
-          <p className="mt-1 text-sm font-medium text-white">
-            {image.format}
-          </p>
+          <p className="mt-1 text-sm font-medium text-white">{image.format}</p>
         </div>
       </div>
 
