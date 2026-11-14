@@ -68,6 +68,8 @@ Users can capture images, review them, assess image quality, draw rectangular bo
 - SVG
 - MediaDevices API
 - Pointer Events API
+- Vitest
+- React Testing Library
 
 ## Project Architecture
 
