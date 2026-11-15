@@ -5,11 +5,11 @@ A responsive React application that allows users to capture images using their d
 
 ## Live Demo
 
-Add your deployed application URL here.
+```https://image-capture-annotation.vercel.app/```
 
 ## GitHub Repository
 
-https://github.com/Ashutosh0706/image-capture-annotation.git
+```https://github.com/Ashutosh0706/image-capture-annotation.git```
 
 ## Project Overview
 
